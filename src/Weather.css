@@ -1,0 +1,57 @@
+.Weather {
+  border: 2px solid goldenrod;
+  font-family: "Teko", sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 87);
+}
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather h1 {
+  color: gold;
+  text-align: center;
+}
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
+.Weather .searchButton {
+  color: darkblue;
+  background-color: goldenrod;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+}
+.Weather .searchButton:hover {
+  background-color: gold;
+}
+.Weather .temperature {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+  color: gold;
+}
+.Weather .unit {
+  padding-left: 5px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  top: -32px;
+  color: goldenrod;
+}
+.Weather .unit a {
+  text-decoration: none;
+}
+.Weather .currentWeather {
+  text-align: center;
+  text-transform: capitalize;
+  color: gold;
+  font-size: 18px;
+}
+.Weather .inforAdd {
+  text-align: end;
+  color: gold;
+  font-size: 18px;
+}
